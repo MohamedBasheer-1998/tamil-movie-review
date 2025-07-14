@@ -1,0 +1,49 @@
+.movie-card {
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-card h3 {
+  color: #308bcf;
+  margin-top: 0;
+}
+
+.btn-read {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  background-color: #308bcf;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.btn-read:hover {
+  background-color: #2469a3;
+}
+
+/* NEW: Download button */
+.btn-download {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin-left: 0.5rem; /* spacing between buttons */
+}
+
+.btn-download:hover {
+  background-color: #1e7e34;
+}

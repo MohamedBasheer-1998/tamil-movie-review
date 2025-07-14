@@ -1,0 +1,39 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.detail-card {
+  background: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.detail-card h2 {
+  margin-bottom: 1rem;
+  color: #308bcf;
+}
+.detail-card p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+.btn-next {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 2rem;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.btn-next:hover {
+  background-color: #218838;
+}
+.error {
+  color: darkred;
+  text-align: center;
+}

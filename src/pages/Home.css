@@ -1,0 +1,21 @@
+.category-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.category-link {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.6rem 1rem;
+  background-color: #308bcf;
+  color: #fff;
+  text-decoration: none;
+  width: fit-content;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.category-link:hover {
+  background-color: #2469a3;
+}

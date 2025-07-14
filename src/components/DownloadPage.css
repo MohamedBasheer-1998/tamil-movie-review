@@ -1,0 +1,42 @@
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.download-page h2 {
+  text-align: center;
+  color: #308bcf;
+}
+.qualities {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.quality-card {
+  flex: 0 0 120px;
+  background: #f7fbff;
+  border: 1px solid #308bcf;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #308bcf;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.quality-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.quality-label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.quality-desc {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.error {
+  text-align: center;
+  color: darkred;
+}

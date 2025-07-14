@@ -1,0 +1,41 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.watch-page h2 {
+  text-align: center;
+  color: #308bcf;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.btn-watch,
+.btn-download {
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+.btn-watch {
+  background: #ff5722;
+}
+.btn-watch:hover {
+  opacity: 0.85;
+}
+.btn-download {
+  background: #308bcf;
+}
+.btn-download:hover {
+  opacity: 0.85;
+}
+.error {
+  color: darkred;
+  text-align: center;
+}
