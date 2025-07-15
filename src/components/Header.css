@@ -1,5 +1,5 @@
 .header {
-  background-color: #308bcf;
+  background-color: #1e6bb8;
   color: #fff;
   padding: 1rem 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -26,22 +26,25 @@
   color: #fff;
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.3s;
 }
 
 .year-menu a:hover {
   text-decoration: underline;
+  color: #ffeb3b; 
 }
 
 .fb-button {
   background-color: #fff;
-  color: #308bcf;
+  color: #1e6bb8;
   padding: 0.4rem 1rem;
   border-radius: 4px;
   text-decoration: none;
   font-weight: bold;
-  transition: 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .fb-button:hover {
   background-color: #e6e6e6;
+  color: #0f4e94; 
 }

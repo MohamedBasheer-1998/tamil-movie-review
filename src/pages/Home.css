@@ -8,14 +8,16 @@
   display: block;
   margin: 1rem auto;
   padding: 0.6rem 1rem;
-  background-color: #308bcf;
-  color: #fff;
+  background-color: #1e6bb8;  
+  color: #ffffff;            
   text-decoration: none;
   width: fit-content;
   border-radius: 4px;
-  transition: background 0.2s;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
 }
 
 .category-link:hover {
-  background-color: #2469a3;
+  background-color: #155a96;  
+  color: #ffeb3b;             
 }
