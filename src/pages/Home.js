@@ -1,6 +1,7 @@
 // pages/Home.js
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import "./Home.css";
 
 const categories = [
@@ -22,6 +23,17 @@ const categories = [
 const Home = () => {
   return (
     <div className="home">
+      <Helmet>
+        <title>MoviesDas - Watch Latest Tamil HD Movies Online</title>
+        <meta name="description" content="Explore the latest Tamil movies from 2020 to 2025 including HD, Dubbed, and Mobile Movies on MoviesDas. Stream free online." />
+        <meta name="keywords" content="Tamil movies 2025, Tamil HD Movies, Tamil Dubbed Movies, MoviesDas, isaimini, tamilrockers" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="MoviesDas - Tamil Movie Categories" />
+        <meta property="og:description" content="Browse and stream Tamil movies by year and category, including HD, dubbed, and mobile formats." />
+        <meta property="og:url" content="https://moviesdas.netlify.app/" />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       <h1>🎬 Tamil Movie Categories</h1>
       <ul className="category-list">
         {categories.map(cat => (
